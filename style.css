@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "inter";
+  src:
+    url("./assets/fonts/lato/lato-black-webfont.woff") format(".woff"),
+    url("/assets/fonts/lato/lato-black-webfont.woff2") format(".woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+  background-color: #4682B4;
+  color: #FAFAFA;
+  font-family: "inter";
+  font-size: 17px;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: #56a1dd;
+  color: #fcfafa;
+}
+
+button:active {
+  background-color: #3c719c;
+}
