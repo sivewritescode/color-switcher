@@ -22,18 +22,17 @@ button {
   height: 50px;
   width: 200px;
   border-radius: 5px;
-  background-color: #4682B4;
-  color: #FAFAFA;
+  background-color: #d3d3d3;
+  color: #3C3836;
   font-family: "inter";
   font-size: 17px;
   font-weight: 700;
 }
 
 button:hover {
-  background-color: #56a1dd;
-  color: #fcfafa;
+  background-color: #e1e1e1;
 }
 
 button:active {
-  background-color: #3c719c;
+  background-color: #bab9b9;
 }
